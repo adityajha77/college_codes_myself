@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full-Screen Centering */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffb1f9, #a6fcff);
+    color: #333;
+  }
+  
+  /* Main Container */
+  .container {
+    background: rgb(248, 229, 252);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+    text-shadow: rgb(252, 107, 208) 2px 2px 5px;
+    font-style: italic;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bio p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+  
+  /* Buttons / Links */
+  .links {
+    margin-top: 2rem;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0.6rem 1.2rem;
+    color: white;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .links a:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+ 
